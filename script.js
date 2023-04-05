@@ -12,6 +12,11 @@ button.addEventListener("click", () => {
 
   getDataApi();
 });
+button.addEventListener("touch", () => {
+  if (!input.value) return;
+
+  getDataApi();
+});
 
 async function getDataApi() {
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(
