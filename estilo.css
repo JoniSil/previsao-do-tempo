@@ -37,6 +37,33 @@ header {
     gap: 5px;
 }
 
+/*.menu {
+  clear: both;
+  width: 100%;
+  float: left;
+  background-color: #f7f7f7;
+  padding: 5px;
+  
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.menu li {
+  float: left;
+  
+}
+.menu li a {
+  
+  color: #9d9d9d;
+  margin-right: 40px;
+}
+
+.menu li a:hover {
+  color: #111;
+}
+*/
 input {
     padding: 5px;
     outline: none;
@@ -68,10 +95,12 @@ input {
     background-image: radial-gradient(#b5b5b5, #f7f7f7 70%);
   }
 
-  #rodape {
+  .rodape {
      clear: both;
-	padding: 16px;
+	  padding: 16px;
     text-align: center;
     margin-top: 100px;
     
   }
+
+  
